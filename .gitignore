@@ -1,7 +1,8 @@
+# Project specific
 build/
 build.sh
 .vscode/
-references/
+ideas/
 
 # Created by https://gitignore.org
 # KiCad.gitignore
