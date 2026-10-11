@@ -7,7 +7,7 @@
 	(title_block
 		(title "Fast-Switching LED Driver")
 		(date "2026-09-28")
-		(rev "0")
+		(rev "1")
 	)
 	(lib_symbols
 		(symbol "74xx:74HC74"
@@ -6636,10 +6636,10 @@
 		(uuid "5f0c2b4c-fe79-4a6b-b29d-8414f931b1e2")
 	)
 	(junction
-		(at 111.76 83.82)
+		(at 109.22 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6570286a-abd2-47b1-9bab-6b512513d3f8")
+		(uuid "61de7a60-9348-4738-a634-94d8575eee82")
 	)
 	(junction
 		(at 151.13 104.14)
@@ -6672,7 +6672,7 @@
 		(uuid "81f2d457-1396-4aee-bc09-4ff659ed8772")
 	)
 	(junction
-		(at 104.14 110.49)
+		(at 105.41 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "85b9322b-2b13-4ad0-830b-852640ee59b8")
@@ -6956,10 +6956,6 @@
 		(uuid "b403d96d-4d70-4f3b-a128-791bf02bd623")
 	)
 	(no_connect
-		(at 102.87 93.98)
-		(uuid "c6e99b6c-290e-4bcf-8c0d-653b67cf156b")
-	)
-	(no_connect
 		(at 57.15 81.28)
 		(uuid "d32e09c4-b0c3-49a1-9156-a7baca8b4623")
 	)
@@ -7171,7 +7167,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 86.36) (xy 104.14 86.36)
+			(xy 102.87 86.36) (xy 105.41 86.36)
 		)
 		(stroke
 			(width 0)
@@ -7481,6 +7477,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 83.82) (xy 109.22 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53b752f0-d05a-4385-ae8d-db02fc30a93a")
+	)
+	(wire
+		(pts
 			(xy 203.2 66.04) (xy 199.39 66.04)
 		)
 		(stroke
@@ -7741,7 +7747,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 86.36) (xy 104.14 110.49)
+			(xy 105.41 86.36) (xy 105.41 110.49)
 		)
 		(stroke
 			(width 0)
@@ -7791,16 +7797,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 86.36) (xy 111.76 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86c6899b-58f0-4fe5-806d-e78731405d33")
-	)
-	(wire
-		(pts
 			(xy 231.14 31.75) (xy 236.22 31.75)
 		)
 		(stroke
@@ -7838,16 +7834,6 @@
 			(type default)
 		)
 		(uuid "8b4a9d47-8329-4e3f-8799-200e153fbefa")
-	)
-	(wire
-		(pts
-			(xy 104.14 110.49) (xy 106.68 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b7a3097-9d60-4048-a2f9-defa5e739a50")
 	)
 	(wire
 		(pts
@@ -8141,16 +8127,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 83.82) (xy 111.76 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cea7a7e1-1deb-4dcc-8deb-515bfdd37c8c")
-	)
-	(wire
-		(pts
 			(xy 207.01 137.16) (xy 217.17 137.16)
 		)
 		(stroke
@@ -8241,16 +8217,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 83.82) (xy 110.49 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd9bd861-cd4f-4e18-a6b7-7b267f9c014e")
-	)
-	(wire
-		(pts
 			(xy 229.87 36.83) (xy 231.14 36.83)
 		)
 		(stroke
@@ -8281,7 +8247,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 110.49) (xy 104.14 110.49)
+			(xy 40.64 110.49) (xy 106.68 110.49)
 		)
 		(stroke
 			(width 0)
@@ -8328,6 +8294,16 @@
 			(type default)
 		)
 		(uuid "eb7647c5-5de4-4f05-a5eb-ebb1174f8a67")
+	)
+	(wire
+		(pts
+			(xy 102.87 83.82) (xy 110.49 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0d906ca-4d7a-4dd3-8532-90c1ca35219d")
 	)
 	(wire
 		(pts
@@ -8611,7 +8587,7 @@
 	)
 	(global_label "SENSE"
 		(shape input)
-		(at 113.03 83.82 0)
+		(at 118.11 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8621,7 +8597,7 @@
 		)
 		(uuid "668c0318-3ec4-4eb0-8cb1-850db5465957")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.0627 83.82 0)
+			(at 127.1427 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11578,7 +11554,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 111.76 90.17 0)
+		(at 109.22 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11588,7 +11564,7 @@
 		(dnp no)
 		(uuid "3f4dc47f-5976-4e0e-87ad-3544eb249db3")
 		(property "Reference" "C9"
-			(at 114.3 88.9 0)
+			(at 111.76 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11599,7 +11575,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 114.3 91.44 0)
+			(at 111.76 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11610,7 +11586,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W4.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
-			(at 112.7252 93.98 0)
+			(at 110.1852 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11621,7 +11597,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 90.17 0)
+			(at 109.22 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11632,7 +11608,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 111.76 90.17 0)
+			(at 109.22 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13290,7 +13266,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 106.68 83.82 90)
+		(at 114.3 83.82 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13300,7 +13276,7 @@
 		(dnp no)
 		(uuid "6e4c7d8c-0347-453a-be4c-34321a7dfe29")
 		(property "Reference" "R24"
-			(at 106.68 78.994 90)
+			(at 114.3 78.994 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13310,7 +13286,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 106.68 81.534 90)
+			(at 114.3 81.534 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13320,7 +13296,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 106.68 85.598 90)
+			(at 114.3 85.598 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13331,7 +13307,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 83.82 0)
+			(at 114.3 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13342,7 +13318,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 106.68 83.82 0)
+			(at 114.3 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16394,6 +16370,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 102.87 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cc2d7fdc-0adc-46eb-9c06-714cba474dc5")
+		(property "Reference" "#PWR035"
+			(at 102.87 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 102.87 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2bc3330f-6088-41bd-b178-d52748b66d03")
+		)
+		(instances
+			(project "led_driver"
+				(path "/517fb8ba-efa2-4ff9-8737-3053492b2e56"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
 		(at 259.08 152.4 270)
 		(unit 1)
@@ -18544,7 +18597,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 111.76 93.98 0)
+		(at 109.22 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18554,7 +18607,7 @@
 		(dnp no)
 		(uuid "feda5595-a9fd-41fb-b039-2ee9cde5ff8f")
 		(property "Reference" "#PWR023"
-			(at 111.76 100.33 0)
+			(at 109.22 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18565,7 +18618,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 111.76 97.79 0)
+			(at 109.22 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18575,7 +18628,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 93.98 0)
+			(at 109.22 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18586,7 +18639,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 93.98 0)
+			(at 109.22 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18597,7 +18650,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 93.98 0)
+			(at 109.22 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
